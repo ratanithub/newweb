@@ -1,0 +1,130 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+}
+
+header {
+    background-color: #1e1e1e;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #ff9800;
+}
+
+p {
+    font-size: 1.2em;
+    opacity: 0.8;
+}
+
+nav {
+    background-color: #222;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ff9800;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Image Slider Styles */
+#slider {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider-container {
+    position: relative;
+    display: flex;
+    transition: transform 0.5s ease;
+    gap: 90px;  /* Adds a gap between the images */
+}
+
+.slider-images {
+    display: flex;
+}
+
+.slider-images img {
+    width: 33.33%;  /* Display 3 images side by side */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Navigation Buttons */
+button {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+.game {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+game img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #222;
+    padding: 20px;
+    margin-top: 20px;
+}footer {
+    background-color: #222;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
